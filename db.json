@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "title": "Hi, welcome!!",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus feugiat laoreet. Pellentesque est orci, hendrerit in aliquet at.",
+      "date": "2022-04-03"
+    },
+    {
+      "id": 1649057427601,
+      "title": "Testing API",
+      "desc": "guys let's do it!",
+      "date": ""
+    },
+    {
+      "id": 1649057437900,
+      "title": "Testing API",
+      "desc": "guys let's do it!",
+      "date": "2022-04-29"
+    },
+    {
+      "id": 1649057982217,
+      "title": "I'm Rizki",
+      "desc": "Software engineer 2020 UPI",
+      "date": "2022-04-28"
+    },
+    {
+      "id": 1649064135918,
+      "title": "Halo",
+      "desc": "Testing",
+      "date": "2022-04-22"
+    },
+    {
+      "id": 1649064146055,
+      "title": "Halooooo!",
+      "desc": "Testing",
+      "date": "2022-04-22"
+    }
+  ]
+}

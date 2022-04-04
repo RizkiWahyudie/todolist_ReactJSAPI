@@ -2,15 +2,9 @@
   "posts": [
     {
       "id": 3,
-      "title": "Hi, welcome!!",
+      "title": "Hi, welcome!",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus feugiat laoreet. Pellentesque est orci, hendrerit in aliquet at.",
       "date": "2022-04-03"
-    },
-    {
-      "id": 1649057427601,
-      "title": "Testing API",
-      "desc": "guys let's do it!",
-      "date": ""
     },
     {
       "id": 1649057437900,
@@ -29,6 +23,12 @@
       "title": "Testing vercel app",
       "desc": "Hallo vercel!",
       "date": "2022-05-06"
+    },
+    {
+      "id": 1649069898442,
+      "title": "Hello API",
+      "desc": "React JS",
+      "date": "2022-04-05"
     }
   ]
 }

@@ -34,7 +34,7 @@ class App extends Component {
   }
   // API METHOD
   getData() {
-    axios.get('http://localhost:3004/posts').then(json => {
+    axios.get('https://todolist-tailwindreact.herokuapp.com/posts').then(json => {
       this.setState({
         dataApi: json.data,
         putStatus: false
@@ -43,7 +43,7 @@ class App extends Component {
   }
   deleteData(e) {
     // console.log(e.target.value)
-    fetch(`http://localhost:3004/posts/${e.target.value}`, {
+    fetch(`https://todolist-tailwindreact.herokuapp.com/posts/${e.target.value}`, {
       method: "DELETE"
     })
       .then(json => this.getData());
@@ -72,7 +72,7 @@ class App extends Component {
   }
   submitPost() {
     if (this.state.putStatus === false) {
-      axios.post(`http://localhost:3004/posts`, this.state.dataPost)
+      axios.post(`https://todolist-tailwindreact.herokuapp.com/posts`, this.state.dataPost)
         .then(() => {
           this.getData();
           this.clearData();
@@ -100,7 +100,7 @@ class App extends Component {
         };
       });
     } else {
-      axios.put(`http://localhost:3004/posts/${this.state.dataPost.id}`, this.state.dataPost)
+      axios.put(`https://todolist-tailwindreact.herokuapp.com/posts/${this.state.dataPost.id}`, this.state.dataPost)
         .then(() => {
           this.getData();
           this.clearData();
@@ -132,7 +132,7 @@ class App extends Component {
     });
   }
   putData = (e) => {
-    axios.get(`http://localhost:3004/posts/${e.target.value}`)
+    axios.get(`https://todolist-tailwindreact.herokuapp.com/posts/${e.target.value}`)
       .then(json => {
         this.setState((state, props) => {
           return {

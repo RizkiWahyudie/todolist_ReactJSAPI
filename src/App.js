@@ -162,7 +162,7 @@ class App extends Component {
         {/* POP UP */}
         <div className={this.state.create}>
           <div className='absolute bg-black/50 min-h-screen w-full' onClick={this.onBack}></div>
-          <div className='absolute -bottom-5 bg-white w-full p-8 pb-10 rounded-t-xl'>
+          <div className='absolute -bottom-5 bg-white w-full p-8 pb-24 lg:pb-10 rounded-t-xl'>
             <div>
               <span className='text-xl font-semibold'>What is your main focus today?</span>
               <label className="block mt-4">

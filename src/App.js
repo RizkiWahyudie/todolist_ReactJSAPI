@@ -203,6 +203,7 @@ class App extends Component {
         <div className='p-4 lg:px-20'>
           <h3>Hallo there!</h3>
           <span className='italic text-slate-400'>Click the button below to add new activity.</span>
+          <span className='italic text-rose-600 block'>* sorry, this website only using my-json-server typicode. therefore it website can only see data (GET) for realtime data (POST PUT DELETE) can only be done on my local json server.</span>
         </div>
         <div className='p-4 pb-28 lg:px-20 lg:pb-20'>
           <h3 className='font-semibold text-sky-600 lg:text-xl'>Current Main Focus</h3>

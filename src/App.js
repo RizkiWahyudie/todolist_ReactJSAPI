@@ -209,7 +209,8 @@ class App extends Component {
           <h3 className='font-semibold text-sky-600 lg:text-xl'>Current Main Focus</h3>
           <div className='text-justify bg-white shadow rounded-lg px-4 py-3 mt-5'>
             <h2 className='text-xl font-semibold mb-1'>Hallo! I'm Rizki Wahyudie</h2>
-            <span className='text-sm'>Student at UPI EDUN. Thanks for the visit my website, enjoy!</span>
+            <span className='text-sm'>Student at UPI EDUN. Thanks for the visit my website, enjoy! </span>
+            <span className='text-sm block text-slate-600'>If you want to see my code, please click <a className='text-sky-500 hover:text-sky-600' href="https://github.com/RizkiWahyudie/todolist_ReactJSAPI.git">my github</a></span>
             <div className='mt-5 mb-2'>
               <p className='italic text-xs text-slate-500'>Created <span>2022-04-04</span></p>
             </div>
